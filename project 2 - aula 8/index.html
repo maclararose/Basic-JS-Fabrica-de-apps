@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aprendendo JS</title>
+
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    
+    <body>
+        <div id="area">
+            Bem vindo...
+        </div>
+
+        <br/><br/>
+
+        <button onclick="document.getElementById('area').innerHTML =
+        'Bem vindo ' + prompt('Qual seu nome?');">Entrar</button>
+    
+        <br/><br/>
+        
+        <div id="area-2"> 
+            We are here again...
+        </div>
+
+        <br/><br/>
+
+        <button onclick="this.innerHTML = prompt('Qual nome do botao?');">Qual meu nome?</button>
+
+    </body>
+</html>
